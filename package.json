@@ -1,6 +1,6 @@
 {
   "name": "api-error-handler-pro",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Comprehensive error handling library for Node.js/Express with MongoDB parser, Zod/Joi validation, i18n, logging, rate-limiting, and GraphQL support",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
