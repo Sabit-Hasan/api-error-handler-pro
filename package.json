@@ -1,0 +1,76 @@
+{
+  "name": "api-error-handler-pro",
+  "version": "1.0.0",
+  "description": "Comprehensive error handling library for Node.js/Express with MongoDB parser, Zod/Joi validation, i18n, logging, rate-limiting, and GraphQL support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "error",
+    "error-handling",
+    "express",
+    "middleware",
+    "mongodb",
+    "validation",
+    "zod",
+    "joi",
+    "i18n",
+    "localization",
+    "logging",
+    "winston",
+    "pino",
+    "graphql",
+    "rate-limiting",
+    "http-errors"
+  ],
+  "author": "Sabit Hasan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabit-hasan/api-error-handler"
+  },
+  "homepage": "https://github.com/sabit-hasan/api-error-handler#readme",
+  "bugs": {
+    "url": "https://github.com/sabit-hasan/api-error-handler/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "winston": "^3.0.0",
+    "pino": "^8.0.0",
+    "zod": "^3.0.0",
+    "joi": "^17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "winston": {
+      "optional": true
+    },
+    "pino": {
+      "optional": true
+    },
+    "zod": {
+      "optional": true
+    },
+    "joi": {
+      "optional": true
+    }
+  }
+}
