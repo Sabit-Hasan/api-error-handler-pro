@@ -35,11 +35,11 @@
   "author": "Sabit Hasan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sabit-hasan/api-error-handler"
+    "url": "https://github.com/Sabit-Hasan/api-error-handler-pro.git"
   },
-  "homepage": "https://github.com/sabit-hasan/api-error-handler#readme",
+  "homepage": "https://github.com/Sabit-Hasan/api-error-handler-pro#readme",
   "bugs": {
-    "url": "https://github.com/sabit-hasan/api-error-handler/issues"
+    "url": "https://github.com/Sabit-Hasan/api-error-handler-pro/issues"
   },
   "engines": {
     "node": ">=16.0.0"
