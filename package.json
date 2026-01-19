@@ -2,16 +2,24 @@
   "name": "api-error-handler-pro",
   "version": "1.0.1",
   "description": "Comprehensive error handling library for Node.js/Express with MongoDB parser, Zod/Joi validation, i18n, logging, rate-limiting, and GraphQL support",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
   "files": [
     "dist",
     "README.md",
     "package.json"
   ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "dev": "tsc --watch & tsc -p tsconfig.cjs.json --watch",
     "prepublish": "npm run build"
   },
   "keywords": [

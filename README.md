@@ -53,6 +53,22 @@ app.listen(3000);
 
 **That's it!** Errors are now automatically caught and formatted.
 
+### 📦 Module Support
+
+This package supports both **ES Modules** and **CommonJS**:
+
+**ES Modules (ESM)**
+```typescript
+import { BadRequestError, errorMiddleware } from "api-error-handler-pro";
+```
+
+**CommonJS**
+```javascript
+const { BadRequestError, errorMiddleware } = require("api-error-handler-pro");
+```
+
+Both work out of the box! Node.js automatically selects the correct format based on your import style.
+
 ## 📚 Common Use Cases
 
 ### HTTP Errors
